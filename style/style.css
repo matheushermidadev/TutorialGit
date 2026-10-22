@@ -5,5 +5,109 @@
 body{
     margin: 0;
 
-    background-color:#ffff;
+    background-color: #F05033;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3{
+    color:#333333;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 20px;
+}
+
+.cabecalho{
+    background-color: #fff;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.comeco{
+    margin-bottom: 7px;
+
+    color: #F05033;
+
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.subtitulo{
+    max-width: 800px;
+}
+
+.logo{
+    width: 30%;
+    float:center;
+    margin-top: -120px;
+}
+
+.menu-list{
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-list li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+
+    background-color: #F05033;
+    color: #333333;
+
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+
+.tabela-comandos{
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.tabela-comandos th, td{
+    padding: 12px;
+    border: 3px solid #F05033;
+    text-align: center;
+}
+
+.tabela-comandos thead{
+    background-color: #333333;
+}
+
+
+
+.rodape{
+    margin-top: 30px;
+    padding: 20px;
+    background-color:#333333;
+    text-align: center;
+}
+.rodape address {
+    font-style: normal;
+}
+.rodape a{
+    text-decoration: none;
 }
